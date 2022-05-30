@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <script src="/scripts.js"></script>
+</head>
+<body>
+    <!-- <form action="/result.html" method="POST"></form> -->
+    <!-- //action direcionamento de para onde vai o site 
+    //não vamos ver isso acontecendo somente os elementos
+    //primeiro ter o site pronto e depois ele direciona com o acton -->
+
+    <!-- //elementos de formulário -->
+    <!-- //caixa de texto
+    //name é importante para que ele netenda que se refere ao primeiro nome por exemplo
+    //for =id -->
+    <!-- <label for="nome">Nome:<br></label>
+    <input type="text" name="nome" id="nome" autofocus>
+    <p id="info"></p>
+    <button onclick="ex_01()">Clicar!!</button> -->
+<!-- //auto focus traz o foco para a caixa,trazendo o cursor -->
+ 
+<!-- //campos de senha são feitos dessa forma usando o type como password -->
+<!-- <label for="senha">Senha</label> <br>
+<input type="password" name="senha" id="senha" minlength="4" maxlength="8" autofocus> -->
+
+<!-- //entradas numericas  -->
+<!-- <label for="anos_experiencia">Anos Experiencia: </label> <br>
+<input type="number" name="anos_experiencia" id="anos_experiencia"> -->
+<!-- //da para definir valor minimo e maximo maxlength -->
+
+<!-- <label for="volume">Volume</label>
+//range para controle deslizante 
+<input type="range" name="volume" id="volume" min="0" max="100" onchange="ex_02()" >
+<p id="info"></p> -->
+
+<!-- //caixa de seleção pode marcar mais de uma opção evite  deixar o usuário digitar  -->
+<!-- <p>Disponibilidade</p>
+<label for="segunda-feira">Segunda-Feira</label>
+<input type="checkbox" name="segunda-feira" id="segunda-feira">
+<label for="terça-feira">Terça-Feira</label>
+<input type="checkbox" name="terça-feira" id="terça-feira"> -->
+
+<!-- //só pode selecionar um  RADIO -->
+<!-- <p>Gênero:</p>
+<label for="feminino">Feminino</label>
+<input type="radio" name="genero" id="feminino" value="1">
+<label for="masculino">Masculino</label>
+<input type="radio" name="genero" id="masculino" value="2"> -->
+<!-- 
+<label for="estado"></label>
+<select name="estado" id="estado">
+    <option value="pr">Paraná</option>
+    <option value="sc">Santa Catarina</option>
+    <option value="rs">Rio Grande do Sul</option>
+</select> -->
+
+<label for="comentarios">Comentários</label> <br>
+<textarea name="comentarios" id="comentarios" cols="30" rows="10" maxlength="150" onkeyup="ex_03()"></textarea>
+<p id="info">Restam 150 caracteres.</p> 
+
+</body>
+</html>

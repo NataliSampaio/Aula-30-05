@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando</title>
+    <script src="/scripts.js"></script>
+</head>
+
+<body>
+    <!-- nome -->
+    <label for="nome">Nome Completo:<br></label>
+    <input type="text" name="nome" id="nome" autofocus onclick="bu_01()">
+    <p id="info"></p>
+    
+
+    <!-- genero -->
+    <p>Gênero:</p>
+    <label for="feminino">Feminino</label>
+    <input type="radio" name="genero" id="feminino" value="1">
+    <label for="masculino">Masculino</label>
+    <input type="radio" name="genero" id="masculino" value="2">
+<br>
+
+    <!-- Estado -->
+    <label for="estado">Estado:</label>
+    <select name="estado" id="estado">
+        <option value="pr">Paraná</option>
+        <option value="sc">Santa Catarina</option>
+        <option value="rs">Rio Grande do Sul</option>
+    </select>
+    <br>
+    <!-- senha -->
+    <label for="senha">Senha</label> <br>
+    <input type="password" name="senha" id="senha" minlength="4" maxlength="8" autofocus>
+    <p id="info"></p>
+    
+<!--  
+    confirmação senha  -->
+    <label for="senha">Confirmar Senha</label> <br>
+    <input type="password" name="senha" id="senha" minlength="4" maxlength="8" autofocus>
+    <p id="info"></p>
+
+<button id="enviar">Enviar</button>
+    
+
+
+
+</body>
+
+</html>
